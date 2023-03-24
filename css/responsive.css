@@ -1,0 +1,90 @@
+@media screen and (max-width: 992px) {
+  .humburger,
+  .toggle-menu {
+    display: block;
+  }
+
+  .header {
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background: var(--bg-header);
+    width: 300px;
+    height: 100%;
+    padding-top: 65px;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menu li a {
+    padding: 30px;
+    text-align: end;
+    /* font-size: 24px; */
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .heading h1 {
+    font-size: 74px;
+  }
+
+  .heading p {
+    font-size: 35px;
+  }
+
+  .maskot {
+    width: 160px;
+  }
+}
+/* ---------------------------- */
+
+/* HP */
+@media screen and (max-width: 547px) {
+  .heading h1 {
+    font-size: 35px;
+  }
+
+  .heading p {
+    font-size: 25px;
+  }
+
+  .maskot {
+    width: 150px;
+  }
+
+  /* .project-img img {
+    width: 40%;
+  } */
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .logo-1 {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 629px) {
+  .project-img img {
+    width: 45%;
+  }
+}
+/* ---------------------------- */
